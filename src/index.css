@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap');
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background-color: #05010d;
+    color: #94a3b8;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.font-serif-title { font-family: 'Playfair Display', serif; }
+.text-gold { color: #FFB800; }
+.highlight-gold { color: #FFB800; font-weight: 600; }
